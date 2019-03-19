@@ -1,0 +1,6 @@
+server:
+ port: 8806
+#feign已经封装了断路器，需要配置打开
+feign:
+ hystrix:
+  enabled: true
