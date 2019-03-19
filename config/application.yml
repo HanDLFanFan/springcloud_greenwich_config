@@ -16,3 +16,6 @@ eureka:
   serviceUrl:
    #指向服务注册中心的地址，如果是注册中心集群，写一个注册中心的地址即可，他们会互相同步
    defaultZone: http://server2:8802/eureka/
+spring:
+ zipkin:
+  base-url: http://localhost:9411
